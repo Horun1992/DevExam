@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DevExam</string>
+
+    <!--App Message-->
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+    <string name="phone_mask">+7 ХХХ ХХХ-ХХ-ХХ</string>
+    <string name="password">password</string>
+    <string name="sing_in">Sing In</string>
+    <string name="ready">Готово</string>
+    <string name="updated">Обновленно</string>
+    <string name="type_twice_to_exit">Для выхода нажмите еще раз назад</string>
+    <string name="check_data">Проверьте данные и попробуйте снова</string>
+    <string name="wrong_phone_mask">Номер должен иметь следующий формат</string>
+
+</resources>

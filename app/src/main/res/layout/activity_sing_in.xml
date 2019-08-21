@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.singinactivity.SingInActivity">
+
+    <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sing_in_activity_company_logo"
+            android:layout_marginTop="@dimen/sing_in_activity_company_logo_marginTop"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+    />
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/sing_in_activity_company_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/sing_in_activity_main_layoutTop"
+            android:layout_marginRight="@dimen/sing_in_activity_main_layoutRight"
+            android:layout_marginEnd="@dimen/sing_in_activity_main_layoutsing_in_activity_main_layoutEnd"
+            android:layout_marginLeft="@dimen/sing_in_activity_main_layoutLeft"
+            android:layout_marginStart="@dimen/sing_in_activity_main_layoutStart">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/phone_mask"
+                android:ems="10"
+                android:id="@+id/sing_in_activity_et_phone"
+                tools:ignore="TextFields"/>
+        <EditText
+                android:id="@+id/sing_in_activity_et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:hint="@string/password"
+                android:layout_marginBottom="@dimen/sing_in_activity_et_password_marginBottom"/>
+        <Button
+                android:text="@string/sing_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sing_in_activity_bt_singin"
+                android:gravity="center" android:onClick="singIn"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

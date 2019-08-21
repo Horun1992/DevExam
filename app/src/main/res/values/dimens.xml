@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="singin_activity_company_logo_margin">16dp</dimen>
+    <dimen name="single_item_title_margin_start">8dp</dimen>
+    <dimen name="single_item_title_margin_end">8dp</dimen>
+    <dimen name="single_item_title_margin_top">16dp</dimen>
+    <dimen name="activity_detail_image_size">150dp</dimen>
+    <dimen name="activity_detail_image_margin">10dp</dimen>
+    <dimen name="activity_detail_title_marginStart">8dp</dimen>
+    <dimen name="activity_detail_title_marginEnd">8dp</dimen>
+    <dimen name="activity_detail_desc_marginStart">8dp</dimen>
+    <dimen name="activity_detail_desc_marginEnd">8dp</dimen>
+    <dimen name="items_list_activity_rv_marginStart">8dp</dimen>
+    <dimen name="items_list_activity_rv_marginEnd">8dp</dimen>
+    <dimen name="sing_in_activity_company_logo_marginTop">18dp</dimen>
+    <dimen name="sing_in_activity_main_layoutTop">32dp</dimen>
+    <dimen name="sing_in_activity_main_layoutRight">32dp</dimen>
+    <dimen name="sing_in_activity_main_layoutsing_in_activity_main_layoutEnd">32dp</dimen>
+    <dimen name="sing_in_activity_main_layoutLeft">32dp</dimen>
+    <dimen name="sing_in_activity_main_layoutStart">32dp</dimen>
+    <dimen name="sing_in_activity_et_password_marginBottom">16dp</dimen>
+</resources>
